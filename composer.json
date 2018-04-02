@@ -20,7 +20,7 @@
         }
     },
     "extra": {
-        "class": "OmniCoders\\Drupal\\ProjectHelper\\Plugin",
+        "class": "OmniCoders\\Drupal\\ProjectHelper\\Composer\\Plugin",
         "branch-alias": {
             "dev-master": "1.0.x-dev"
         },
