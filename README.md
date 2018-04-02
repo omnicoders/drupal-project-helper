@@ -1,2 +1,2 @@
 # drupal-project-helper
-Provides helper functionality for Drupal projects
+Provides helper functionality for Drupal projects.
