@@ -1,0 +1,50 @@
+{
+    "name": "omnicoders/drupal-project-helper",
+    "description": "Provides helper functionality for Drupal projects.",
+    "type": "composer-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Omni Coders",
+            "homepage": "https://github.com/omnicoders/drupal-project-helper/graphs/contributors"
+        },
+        {
+            "name": "Sierk Beij",
+            "homepage": "https://drupal.org/u/sierkje",
+            "role": "bottom-liner"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "OmniCoders\\Drupal\\ProjectHelper\\": "src/"
+        }
+    },
+    "extra": {
+        "class": "OmniCoders\\Drupal\\ProjectHelper\\Plugin",
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        },
+        "installer-paths": {
+            "vendor/drupal/core": ["type:drupal-core"]
+        },
+        "drupal-scaffold": {
+            "omit-defaults": true
+        }
+    },
+    "require-dev": {
+        "composer/composer": "^1.6"
+    },
+    "require": {
+        "php": ">=7.1",
+        "composer-plugin-api": "^1.0.0",
+        "cweagans/composer-patches": "^1.6",
+        "drupal-composer/drupal-scaffold": "^2.4",
+        "drupal/console": "^1.8",
+        "drupal/core": "^8.5",
+        "drush/drush": "^9.2",
+        "oomphinc/composer-installers-extender": "^1.1",
+        "vlucas/phpdotenv": "^2.4",
+        "webflo/drupal-finder": "^1.1",
+        "webmozart/path-util": "^2.3"
+    }
+}
